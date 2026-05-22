@@ -1,0 +1,6 @@
+import boto3
+
+session= boto3.session(profile_name='dev')
+iamClient= session.client(service_name='iam')
+
+
